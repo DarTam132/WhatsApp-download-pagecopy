@@ -40,7 +40,9 @@ html {
 .icon {
   font-size: 1.7rem;
 }
-
+.rotate {
+  rotate: 180deg;
+}
 .link-main:link,
 .link-main:visited {
   display: inline-block;
@@ -108,6 +110,67 @@ html {
 .div-style:hover {
   box-shadow: inset 0 -5rem #000;
   color: #fff;
+}
+
+/* ***************** */
+/* Hidden section */
+/* **************** */
+.hidden-section {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.features-hidden-card:link,
+.features-hidden-card:visited {
+  height: 23rem;
+  width: 25rem;
+  border: solid 0.1rem #36363674;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+  border-radius: 2.5rem;
+  gap: 2rem;
+}
+.features-hidden-card:hover,
+.features-hidden-card:active {
+  background-color: #25d366;
+}
+
+.features-logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 2.5rem 0rem 0rem 2.5rem;
+}
+
+.features-heading {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-left: 2.5rem;
+}
+
+.features-paragraph {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-left: 2.5rem;
+}
+
+.feature-direction {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+}
+.hidden {
+  display: none;
 }
 
 /* ***************** */
@@ -316,6 +379,10 @@ html {
   gap: 2rem;
   overflow: hidden;
 }
+
+/* .carousel-card1 {
+  display: none;
+} */
 
 .carousel-photo {
   border-radius: 2.5rem;

@@ -14,11 +14,10 @@ html {
 .header {
   width: 100%;
   height: 8rem;
-  background: rgb(255, 255, 255);
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: fixed; */
 }
 
 .logo {
@@ -38,7 +37,9 @@ html {
   justify-content: center;
 }
 .icon {
+  margin-top: -0.5rem;
   font-size: 1.7rem;
+  transition: all 0.5s;
 }
 .rotate {
   rotate: 180deg;
@@ -117,10 +118,13 @@ html {
 /* **************** */
 .hidden-section {
   height: 30rem;
+  width: 100%;
   display: flex;
+  background-color: #fff;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  position: absolute;
 }
 
 .features-hidden-card:link,
@@ -138,6 +142,10 @@ html {
 .features-hidden-card:hover,
 .features-hidden-card:active {
   background-color: #25d366;
+}
+
+.features-hidden-card:hover .features-logo {
+  background-color: #000;
 }
 
 .features-logo {
